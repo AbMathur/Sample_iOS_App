@@ -14,6 +14,7 @@
 		8289BE822155187800021780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8289BE802155187800021780 /* LaunchScreen.storyboard */; };
 		8289BE8D2155187800021780 /* Sample_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289BE8C2155187800021780 /* Sample_iOS_AppTests.swift */; };
 		8289BE982155187900021780 /* Sample_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289BE972155187900021780 /* Sample_iOS_AppUITests.swift */; };
+		82E1D04E215B8AA7002E8D3A /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82E1D04D215B8AA6002E8D3A /* ExportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8289BE932155187900021780 /* Sample_iOS_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_iOS_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8289BE972155187900021780 /* Sample_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_iOS_AppUITests.swift; sourceTree = "<group>"; };
 		8289BE992155187900021780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E1D04D215B8AA6002E8D3A /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		8289BE6B2155187700021780 = {
 			isa = PBXGroup;
 			children = (
+				82E1D04D215B8AA6002E8D3A /* ExportOptions.plist */,
 				8289BE762155187700021780 /* Sample_iOS_App */,
 				8289BE8B2155187800021780 /* Sample_iOS_AppTests */,
 				8289BE962155187900021780 /* Sample_iOS_AppUITests */,
@@ -232,6 +235,7 @@
 				8289BE822155187800021780 /* LaunchScreen.storyboard in Resources */,
 				8289BE7F2155187800021780 /* Assets.xcassets in Resources */,
 				8289BE7D2155187700021780 /* Main.storyboard in Resources */,
+				82E1D04E215B8AA7002E8D3A /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
